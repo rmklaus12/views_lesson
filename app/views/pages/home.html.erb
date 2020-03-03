@@ -1,0 +1,7 @@
+<%= render "shared/top_nav", user: @user %>
+
+<ul>
+    <% @names.each do |name| %>
+        <li><%= name.capitalize %></li>
+    <% end %>
+</ul>
